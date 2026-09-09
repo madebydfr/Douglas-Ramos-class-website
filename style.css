@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Bing Boss";
+    src: url("fonts/Bing Boss.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: lightblue;
+    font-family: "Bing Boss", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+h1 {
+    color: #eb4034;
+}
+h2 {
+    color: white;
+}
+p  {
+    color: rgb(255, 255, 255);
+}
+ul {
+    display: inline-block;
+    text-align: left;
+}
+img {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+}
+button {
+    display: block;
+    margin: 30px auto;
+}
+blokquote{
+    color: rgb(79, 23, 148);
+}
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
