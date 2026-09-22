@@ -6,19 +6,22 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
     font-family: "Bing Boss", sans-serif;
     font-weight: 400;
     text-align: center;
 }
-h1 {
-    color: #eb4034;
+h1{
+   color: #eb4034;
+    margin: 5px auto;
+    border-bottom: 5px solid #eb4034;
 }
 h2 {
     color: white;
 }
 p  {
     color: rgb(255, 255, 255);
+    font-family: "dm-sans", sans-serif;
 }
 ul {
     display: inline-block;
@@ -32,11 +35,32 @@ img {
 button {
     display: block;
     margin: 30px auto;
+    color: rgb(255, 0, 0);
 }
-blokquote{
-    color: rgb(79, 23, 148);
+blockquote{
+    color: #eb4034;
+    font-family: "dm-sans", sans-serif;
 }
 a {
-    color: rgb(255, 0, 0);
+    color: #eb4034;
     text-decoration: underline;
+}
+ul li {
+    color: #eb4034;
+    font-family: "dm-sans", sans-serif;
+}
+#douglas-image {
+    width: 300px;
+    height: auto;
+border-radius: 50%; color:#eb4034; border-bottom: 5px solid #eb4034;
+    margin: 20px auto;
+    padding: 10px;
+}
+#page-title {
+    padding: 20px;
+}div {
+  border: 2px solid #eb4034;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
 }
