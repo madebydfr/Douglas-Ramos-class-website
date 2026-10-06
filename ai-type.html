@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Typography Experiment</title>
+  <link rel="stylesheet" href="interaction.css">
+</head>
+<body>
+
+  <main class="playground">
+    <h1>AI Typography Experiment</h1>
+    <p>Type a word, adjust the spacing, and choose a text color.</p>
+
+    <div class="preview">
+      <h2 id="preview-text">REBORN</h2>
+    </div>
+
+    <label for="word-input">Your word</label>
+    <input
+      type="text"
+      id="word-input"
+      value="REBORN"
+      maxlength="20"
+    >
+
+    <label for="spacing-slider">Letter spacing</label>
+    <input
+      type="range"
+      id="spacing-slider"
+      min="0"
+      max="20"
+      value="0"
+    >
+
+    <label for="color-picker">Text color</label>
+    <input
+      type="color"
+      id="color-picker"
+      value="#ffffff"
+    >
+
+    <section class="reflection">
+      <h2>Reflection</h2>
+      <p>
+        I asked ChatGPT to help extend my letter-spacing slider
+        into a typography editor with custom text and a color picker.
+      </p>
+    </section>
+
+    <a href="index.html">Back to Home</a>
+  </main>
+
+  <script src="ai-type.js"></script>
+</body>
+</html>

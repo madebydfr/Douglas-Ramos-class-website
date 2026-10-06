@@ -52,3 +52,31 @@ a {
     margin-top: 30px;
     color: #ffffff;
 }
+
+input {
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 2px solid #ee2624;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+input[type="color"] {
+  width: 80px;
+  height: 45px;
+  padding: 3px;
+}
+
+.reflection {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #292929;
+  border-radius: 10px;
+}
+
+.reflection p {
+  line-height: 1.6;
+}
